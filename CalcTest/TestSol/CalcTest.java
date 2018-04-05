@@ -3,12 +3,12 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import test.Calc;
+import calc.Calc;
 
 public class CalcTest {
 
 	@Test
-	public void test() {
+	public void CalcTestSol() {
 		Calc cal = new Calc(2,2);
 		
 		int add = cal.add();
