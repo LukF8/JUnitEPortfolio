@@ -155,7 +155,9 @@ public class CalcTest {
 ### 4.4 Run your test
 To run your JUnit test you have to right-click on your new test class and select Run-As ▸ JUnit Test.
 ![Fourth Step](Images/Eclipse4.png)
+
 The result of the tests are displayed in the JUnit view.
+
 ![Fitfth Step](Images/Eclipse5.png)
 
 
