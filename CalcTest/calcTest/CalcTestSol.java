@@ -5,10 +5,10 @@ import org.junit.Test;
 
 import calc.Calc;
 
-public class CalcTest {
+public class CalcTestSol {
 
 	@Test
-	public void CalcTestSol() {
+	public void CalcTest() {
 		Calc cal = new Calc(2,2);
 		
 		int add = cal.add();
