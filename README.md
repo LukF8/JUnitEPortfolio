@@ -89,5 +89,48 @@ Another approach is to use "Given[ExplainYourInput]When[WhatIsDone]Then[Expected
 
 
 ## 4 JUnit integration in Eclipse
+### 4.1 Project preparation
+To run a JUnit test you have to create a new project. In your project you have to create two source folders, one for the normal java classes and one for JUnit test classes. (This is not needed but it is a better way to get clarity) You can add a source folder by right-clicking on a project and selecting New ▸ Source Folder.
+
+### 4.2 Create a Java class
+In the source folder that contains the Java classes you create a new Java class. For example a `Calc` class.
+```java
+package calc;
+
+public class Calc {
+
+	private int a;
+	private int b;
+	
+	public Calc(int a, int b) {
+		this.a = a;
+		this.b = b;
+	}
+	
+	public int add() {
+		return a + b;
+	}
+	public int sub() {
+		return a - b;
+	}
+	public int mul() {
+		return a*b;
+	}
+	public int div() {
+		return a / b;
+	}
+	
+	
+```
+
+### 4.3 Create a JUnit test
+To create a new JUnit test for a class you have to right-click on your class in the Package Explorer and to select a new JUnit test case.
+
+![First Step](images/eclipse1.png)
+![Second Step](images/eclipse2.png)
+![Third Step](images/eclipse3.png)
+
+
+
 
 
