@@ -126,9 +126,9 @@ public class Calc {
 ### 4.3 Create a JUnit test
 To create a new JUnit test for a class you have to right-click on your class in the Package Explorer and to select a new JUnit test case.
 
-![First Step](images/eclipse1.png)
-![Second Step](images/eclipse2.png)
-![Third Step](images/eclipse3.png)
+![First Step](Images/eclipse1.png)
+![Second Step](Images/eclipse2.png)
+![Third Step](Images/eclipse3.png)
 
 
 
