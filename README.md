@@ -20,6 +20,8 @@ JUnit is a test framework that uses annotations to identify methods that specify
 A Junit test is a method contained in a class which is only used for testing. This is called a _Test class_. To define a certain method is a test method, annotate it with the `@Test` annotation. 
 In addition to this annotations there are also some other annotations that are used in JUnit.
 ##### Annotation Types Summary
+| Annotation | effect |
+|----|----|
 | After | If you allocate external resources in a Before method you need to release them after the test runs. |
 | AfterClass | If you allocate expensive external resources in a BeforeClass method you need to release them after all the tests in the class have run. |
 | Before | When writing tests, it is common to find that several tests need similar objects created before they can run. |
