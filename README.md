@@ -128,9 +128,33 @@ To create a new JUnit test for a class you have to right-click on your class in 
 
 ![First Step](Images/Eclipse1.png)
 ![Second Step](Images/Eclipse2.png)
-![Third Step](Images/Eclipse3.png)
 
+In the following wizard you have to ensure that the New JUnit 4 test is set and set the source folder to `CalcTest`, so that your test gets created in this folder.
+![Third Step](Images/Eclipse3.png) 
+After that click finish and a new test will be created.
+There will be created a test class with the following code.
+´´´java
+package calcTest;
 
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CalcTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}
+´´´
+
+### 4.4 Run your test
+To run your JUnit test you have to right-click on your new test class and select Run-As ▸ JUnit Test.
+Bild
+The result of the tests are displayed in the JUnit view.
+Bild
 
 
 
