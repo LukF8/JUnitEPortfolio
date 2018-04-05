@@ -14,6 +14,7 @@ public class Calc {
 		return a + b;
 	}
 	public int sub() {
+		
 		return a - b;
 	}
 	public int mul() {
