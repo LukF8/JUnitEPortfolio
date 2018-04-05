@@ -160,5 +160,5 @@ The result of the tests are displayed in the JUnit view.
 
 ![Fitfth Step](Images/Eclipse5.png)
 
-
+### 5 Additonal information
 
