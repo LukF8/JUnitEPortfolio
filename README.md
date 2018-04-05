@@ -35,8 +35,8 @@ In addition to this annotations there are also some other annotations that are u
 
 ### 3.2 Assert statements
 JUnit provides static methods to test for certain conditions via the *Assert* class. These assert statements typically start with *assert*. They allow you to specify the error message, the expected and the actual result. An assertion method compares the actual value returned by a test to the expected value. It throws an *AssertionException* if the comparison fails.
-
 The following table gives an overview of these methods. Parameters in [] brackets are optional and of type String.
+##### Assert statements
 | Statement | Description |
 |----|----|
 | fail([message]) | Let the method fail. Might be used to check that a certain part of the code is not reached or to have a failing test before the test code is implemented. The message parameter is optional. |
