@@ -194,4 +194,4 @@ public class CalcTestSuite {
 ### 5.2 Annotations
 
 Beside the basic annotations _@Test @Before @After @AfterClass @BeforeClass @Ignore @Runwith_ there are also other annotations that can be used in JUnit. 
-The most important ones are Parameterized test, Category and Rule. You can see all this annotations [here](https://github.com/junit-team/junit4/search?p=2&q=%22%40interface%22&type=Code).
+The most important ones are Parameterized _test, Category and Rule_. You can see all this annotations [here](https://github.com/junit-team/junit4/search?p=2&q=%22%40interface%22&type=Code).
