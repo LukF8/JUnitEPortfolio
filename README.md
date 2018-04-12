@@ -160,5 +160,20 @@ The result of the tests are displayed in the JUnit view.
 
 ![Fitfth Step](Images/Eclipse5.png)
 
-### 5 Additonal information
+## 5 Additonal information
+
+### 5.1 JUnit Test Suites
+If you have several test classes, you can combine them into a test suite. Running this test suites executes all test classes in a specific order. A test suite can also contain other test suites.
+
+To create a test suite in Eclipse you have to do the following steps.
+
+Select all test classes and choose new ▸ other ▸ JUnitTestSuite
+
+![First Step](Images/Eclipse6.png)
+
+After you can create a new test suite
+
+![Second Step](Images/Eclipse7.png)
+
+### 5.2 Annotations
 
