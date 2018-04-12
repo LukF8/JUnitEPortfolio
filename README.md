@@ -8,7 +8,9 @@ A software test is a piece of code, which executes another piece of software. It
 
 ### 2.1 Phases of testing
  
- Bild von Pfeil
+[phases](Images/Phases.PNG)
+
+Here we are doing Unit tests.
  
 ### 2.2 Advantages
 Software unit tests help the developer to verify that the logic of the program is correct. Running tests automatically helps to identify software regressions in the source code. Having a high test coverage of your code allows you to continue developing features without having to perform lots of manual tests.
