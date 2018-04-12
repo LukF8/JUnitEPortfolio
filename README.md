@@ -8,7 +8,7 @@ A software test is a piece of code, which executes another piece of software. It
 
 ### 2.1 Phases of testing
  
-[phases](Images/Phases.PNG)
+![phases](Images/Phases.PNG)
 
 Here we are doing Unit tests.
  
