@@ -171,9 +171,25 @@ Select all test classes and choose new ▸ other ▸ JUnitTestSuite
 
 ![First Step](Images/Eclipse6.png)
 
-After you can create a new test suite
+Afterwards you can create a new test suite.
 
 ![Second Step](Images/Eclipse7.png)
 
+Then a new JUnit Test Suite will be created.
+```java 
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
+import org.junit.runners.Suite.SuiteClasses;
+
+@RunWith(Suite.class)
+@SuiteClasses({ CalcTest1.class, CalcTest2.class })
+public class CalcTestSuite {
+
+}
+```
+
+
 ### 5.2 Annotations
 
+Beside the basic annotations _@Test @Before @After @AfterClass @BeforeClass @Ignore @Runwith_ there are also other annotations that can be used in JUnit. 
+The most important ones are Parameterized test, Category and Rule. You can see all this annotations [here](https://github.com/junit-team/junit4/search?p=2&q=%22%40interface%22&type=Code)
