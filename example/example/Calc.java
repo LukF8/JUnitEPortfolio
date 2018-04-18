@@ -1,4 +1,4 @@
-package calc;
+package example;
 
 public class Calc {
 

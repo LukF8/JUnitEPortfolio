@@ -1,9 +1,9 @@
-package calcTest;
+package exampleTest;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import calc.Calc;
+import example.Calc;
 
 public class CalcTestSol {
 
