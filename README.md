@@ -8,7 +8,9 @@ A software test is a piece of code, which executes another piece of software. It
 
 ### 2.1 Phases of testing
  
- Bild von Pfeil
+![phases](Images/Phases.PNG)
+
+Here we are doing Unit tests.
  
 ### 2.2 Advantages
 Software unit tests help the developer to verify that the logic of the program is correct. Running tests automatically helps to identify software regressions in the source code. Having a high test coverage of your code allows you to continue developing features without having to perform lots of manual tests.
@@ -192,4 +194,4 @@ public class CalcTestSuite {
 ### 5.2 Annotations
 
 Beside the basic annotations _@Test @Before @After @AfterClass @BeforeClass @Ignore @Runwith_ there are also other annotations that can be used in JUnit. 
-The most important ones are Parameterized test, Category and Rule. You can see all this annotations [here](https://github.com/junit-team/junit4/search?p=2&q=%22%40interface%22&type=Code).
+The most important ones are _Parameterized test, Category and Rule_. You can see all this annotations [here](https://github.com/junit-team/junit4/search?p=2&q=%22%40interface%22&type=Code).
