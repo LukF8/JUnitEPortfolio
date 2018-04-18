@@ -1,15 +1,22 @@
 package exampleTest;
 import static org.junit.Assert.*;
 
+import org.junit.BeforeClass;
 import org.junit.Test;
 
 import example.Calc;
 
 public class CalcTestSol {
 
+	public static Calc cal;
+	
+	@BeforeClass
+	public static void init() {
+		cal = new Calc(2, 2);
+	}
+	
 	@Test
 	public void CalcTest() {
-		Calc cal = new Calc(2,2);
 		
 		int add = cal.add();
 		assertEquals(add, 4);
