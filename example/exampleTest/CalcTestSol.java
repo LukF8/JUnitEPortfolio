@@ -13,6 +13,7 @@ public class CalcTestSol {
 	@BeforeClass
 	public static void init() {
 		cal = new Calc(2, 2);
+		
 	}
 	
 	@Test
