@@ -62,26 +62,42 @@ import org.junit.Test;
 
 import test.Calc;
 
-public class CalcTest {
+public class CalcTestSol {
 
+	public static Calc cal;
+
+	@BeforeClass
+	public static void init() {
+		cal = new Calc(2, 2);
+
+	}
+	
 	@Test
-	public void test() {
-		Calc cal = new Calc(2,2);
-		
+	public void additionTest() {
 		int add = cal.add();
 		assertEquals(add, 4);
-		
+	}
+
+	@Test
+	public void subtractionTest() {
 		int sub = cal.sub();
 		assertEquals(sub, 0);
-		
+	}
+
+	@Test
+	public void multiplicationTest() {
 		int mul = cal.mul();
 		assertEquals(mul, 4);
-		
+	}
+
+	@Test
+	public void divisionTest() {
 		int div = cal.div();
 		assertEquals(div, 1);
 	}
 
 }
+
 
 ```
 ### 3.4 JUnit naming conventions
