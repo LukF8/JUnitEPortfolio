@@ -2,6 +2,8 @@
 
 ## Table of Contents
   * [1. JUnit](#1-JUnit)
+  * [3. Using JUnit](#3-using-junit)
+  
 
 ## 1 JUnit
 JUnit is an open source framework that has been designed for the purpose of writing and running tests in the java programming language. Origininally it was written by Erich Gamma and Kent Beck. The goal of the framework is to accelerate programming and to increase the quality of code. It is one of a family of unit testing framework which is collectively known as XUnit.
