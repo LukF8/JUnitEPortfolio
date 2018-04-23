@@ -15,6 +15,7 @@
   * [4.2 Create a Java class](#42-create-a-java-class)
   * [4.3 Create a JUnit test](#43-create-a-junit-test)
   * [4.4 Run your test](#44-run-your-test)
+  * [4.5 JUnit in IntelliJ](#45-junit-in-intellij)
 - [5 Additonal information](#5-additonal-information)
   * [5.1 JUnit Test Suites](#51-junit-test-suites)
   * [5.2 Annotations](#52-annotations)
