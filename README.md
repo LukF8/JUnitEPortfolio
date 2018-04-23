@@ -1,5 +1,8 @@
 # JUnitEPortfolio
 
+## Table of Contents
+  * [1. JUnit](#1-JUnit)
+
 ## 1 JUnit
 JUnit is an open source framework that has been designed for the purpose of writing and running tests in the java programming language. Origininally it was written by Erich Gamma and Kent Beck. The goal of the framework is to accelerate programming and to increase the quality of code. It is one of a family of unit testing framework which is collectively known as XUnit.
 
@@ -43,7 +46,7 @@ The following table gives an overview of these methods. Parameters in [] bracket
 |----|----|
 | fail([message]) | Let the method fail. Might be used to check that a certain part of the code is not reached or to have a failing test before the test code is implemented. The message parameter is optional. |
 | assertTrue([message,] boolean condition) | Checks that the boolean condition is true. |
-| assertFalse([message,] boolean condition) | assertFalse([message,] boolean condition) |
+| assertFalse([message,] boolean condition) | Checks that the boolean condition is false. |
 | assertEquals([message,] expected, actual) | Tests that two values are the same. Note: for arrays the reference is checked not the content of the arrays. |
 | assertEquals([message,] expected, actual, tolerance) | Test that float or double values match. The tolerance is the number of decimals which must be the same. |
 | assertNull([message,] object) | Checks that the object is null. |
