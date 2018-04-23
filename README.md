@@ -1,12 +1,25 @@
 # JUnitEPortfolio
 
 ## Table of Contents
-  * [1. JUnit](#1-JUnit)
-  * [2. Software Testing](#2-software-testing)
-     * [2.1 Phases of testing](#2.1-phases-of-testing)
-     * [2.2 Advantages](#2.2-advantages)
-  * [3. Using JUnit](#3-using-junit)
-     * [3.1 How to define a test in JUnit?](#3.1-how-to-define-a-test-in-jUnit?)
+  - [1. JUnit](#1-junit)
+- [2. Software Testing](#2-software-testing)
+  * [2.1 Phases of testing](#21-phases-of-testing)
+  * [2.2 Advantages](#22-advantages)
+- [3 Using JUnit](#3-using-junit)
+  * [3.1 How to define a test in JUnit?](#31-how-to-define-a-test-in-junit-)
+      - [Annotation Types Summary](#annotation-types-summary)
+  * [3.2 Assert statements](#32-assert-statements)
+      - [Assert statements](#assert-statements)
+  * [3.3 Example JUnit test](#33-example-junit-test)
+  * [3.4 JUnit naming conventions](#34-junit-naming-conventions)
+- [4 JUnit integration in Eclipse](#4-junit-integration-in-eclipse)
+  * [4.1 Project preparation](#41-project-preparation)
+  * [4.2 Create a Java class](#42-create-a-java-class)
+  * [4.3 Create a JUnit test](#43-create-a-junit-test)
+  * [4.4 Run your test](#44-run-your-test)
+- [5 Additonal information](#5-additonal-information)
+  * [5.1 JUnit Test Suites](#51-junit-test-suites)
+  * [5.2 Annotations](#52-annotations)
   
 
 ## 1. JUnit
