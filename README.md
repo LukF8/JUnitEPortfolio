@@ -9,10 +9,10 @@
      * [3.1 How to define a test in JUnit?](#3.1-how-to-define-a-test-in-jUnit?)
   
 
-## 1 JUnit
+## 1. JUnit
 JUnit is an open source framework that has been designed for the purpose of writing and running tests in the java programming language. Origininally it was written by Erich Gamma and Kent Beck. The goal of the framework is to accelerate programming and to increase the quality of code. It is one of a family of unit testing framework which is collectively known as XUnit.
 
-## 2 Software Testing
+## 2. Software Testing
 A software test is a piece of code, which executes another piece of software. It validates if that code results in the expected state (state testing) or executes the expected sequence of events (behavior testing). This helps to verify that logic of a program is correct and creates a relation ship between developing and testing. 
 
 ### 2.1 Phases of testing
