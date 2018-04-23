@@ -198,6 +198,10 @@ The result of the tests are displayed in the JUnit view.
 
 ![Fitfth Step](Images/Eclipse5.png)
 
+### 4.5 JUnit in IntelliJ
+
+To run JUnit in Intellij you can follow this [link](https://blog.jetbrains.com/idea/2006/03/running-junit-4-tests-in-intellij-idea-51/)
+
 ## 5 Additonal information
 
 ### 5.1 JUnit Test Suites
