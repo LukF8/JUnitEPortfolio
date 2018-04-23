@@ -2,7 +2,11 @@
 
 ## Table of Contents
   * [1. JUnit](#1-JUnit)
+  * [2. Software Testing](#2-software-testing)
+     * [2.1 Phases of testing](#2.1-phases-of-testing)
+     * [2.2 Advantages](#2.2-advantages)
   * [3. Using JUnit](#3-using-junit)
+     * [3.1 How to define a test in JUnit?](#3.1-how-to-define-a-test-in-jUnit?)
   
 
 ## 1 JUnit
