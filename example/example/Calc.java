@@ -1,5 +1,7 @@
 package example;
 
+import javax.security.auth.login.AccountException;
+
 public class Calc {
 
 	
@@ -12,6 +14,22 @@ public class Calc {
 		
 	}
 	
+	public int getA() {
+		return a;
+	}
+
+	public void setA(int a) {
+		this.a = a;
+	}
+
+	public int getB() {
+		return b;
+	}
+
+	public void setB(int b) {
+		this.b = b;
+	}
+	
 	public int add() {
 		return a + b;
 	}
@@ -19,11 +37,19 @@ public class Calc {
 		
 		return a - b;
 	}
+
+
 	public int mul() {
 		return a*b;
 	}
-	public int div() {
-		return a / b;
+	public int div() throws CalcException {
+		if(b==0) {
+			throw new CalcException("No division by zero ! ");
+		} else {
+			return a / b;
+		}
+		
+		
 	}
 	
 	
