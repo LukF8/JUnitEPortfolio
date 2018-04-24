@@ -201,7 +201,7 @@ The result of the tests are displayed in the JUnit view.
 
 ### 4.5 JUnit in IntelliJ
 
-To run JUnit in Intellij you can follow this [link](https://www.jetbrains.com/help/idea/tdd-with-intellij-idea.html)
+To run JUnit in Intellij you can follow this [link](https://www.jetbrains.com/help/idea/tdd-with-intellij-idea.html).
 
 ## 5 Additonal information
 
