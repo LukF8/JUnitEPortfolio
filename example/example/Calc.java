@@ -8,6 +8,10 @@ public class Calc {
 	private int a;
 	private int b;
 	
+	public  Calc() {
+		
+	}
+	
 	public Calc(int a, int b) {
 		this.a = a;
 		this.b = b;
