@@ -1,9 +1,30 @@
 # JUnitEPortfolio
 
-## 1 JUnit
+## Table of Contents
+  - [1. JUnit](#1-junit)
+- [2. Software Testing](#2-software-testing)
+  * [2.1 Phases of testing](#21-phases-of-testing)
+  * [2.2 Advantages](#22-advantages)
+- [3 Using JUnit](#3-using-junit)
+  * [3.1 How to define a test in JUnit?](#31-how-to-define-a-test-in-junit-)
+  * [3.2 Assert statements](#32-assert-statements)
+  * [3.3 Example JUnit test](#33-example-junit-test)
+  * [3.4 JUnit naming conventions](#34-junit-naming-conventions)
+- [4 JUnit integration in Eclipse](#4-junit-integration-in-eclipse)
+  * [4.1 Project preparation](#41-project-preparation)
+  * [4.2 Create a Java class](#42-create-a-java-class)
+  * [4.3 Create a JUnit test](#43-create-a-junit-test)
+  * [4.4 Run your test](#44-run-your-test)
+  * [4.5 JUnit in IntelliJ](#45-junit-in-intellij)
+- [5 Additonal information](#5-additonal-information)
+  * [5.1 JUnit Test Suites](#51-junit-test-suites)
+  * [5.2 Annotations](#52-annotations)
+  
+
+## 1. JUnit
 JUnit is an open source framework that has been designed for the purpose of writing and running tests in the java programming language. Origininally it was written by Erich Gamma and Kent Beck. The goal of the framework is to accelerate programming and to increase the quality of code. It is one of a family of unit testing framework which is collectively known as XUnit.
 
-## 2 Software Testing
+## 2. Software Testing
 A software test is a piece of code, which executes another piece of software. It validates if that code results in the expected state (state testing) or executes the expected sequence of events (behavior testing). This helps to verify that logic of a program is correct and creates a relation ship between developing and testing. 
 
 ### 2.1 Phases of testing
@@ -43,7 +64,7 @@ The following table gives an overview of these methods. Parameters in [] bracket
 |----|----|
 | fail([message]) | Let the method fail. Might be used to check that a certain part of the code is not reached or to have a failing test before the test code is implemented. The message parameter is optional. |
 | assertTrue([message,] boolean condition) | Checks that the boolean condition is true. |
-| assertFalse([message,] boolean condition) | assertFalse([message,] boolean condition) |
+| assertFalse([message,] boolean condition) | Checks that the boolean condition is false. |
 | assertEquals([message,] expected, actual) | Tests that two values are the same. Note: for arrays the reference is checked not the content of the arrays. |
 | assertEquals([message,] expected, actual, tolerance) | Test that float or double values match. The tolerance is the number of decimals which must be the same. |
 | assertNull([message,] object) | Checks that the object is null. |
@@ -62,26 +83,42 @@ import org.junit.Test;
 
 import test.Calc;
 
-public class CalcTest {
+public class CalcTestSol {
 
+	public static Calc cal;
+
+	@BeforeClass
+	public static void init() {
+		cal = new Calc(2, 2);
+
+	}
+	
 	@Test
-	public void test() {
-		Calc cal = new Calc(2,2);
-		
+	public void additionTest() {
 		int add = cal.add();
 		assertEquals(add, 4);
-		
+	}
+
+	@Test
+	public void subtractionTest() {
 		int sub = cal.sub();
 		assertEquals(sub, 0);
-		
+	}
+
+	@Test
+	public void multiplicationTest() {
 		int mul = cal.mul();
 		assertEquals(mul, 4);
-		
+	}
+
+	@Test
+	public void divisionTest() {
 		int div = cal.div();
 		assertEquals(div, 1);
 	}
 
 }
+
 
 ```
 ### 3.4 JUnit naming conventions
@@ -161,6 +198,10 @@ To run your JUnit test you have to right-click on your new test class and select
 The result of the tests are displayed in the JUnit view.
 
 ![Fitfth Step](Images/Eclipse5.png)
+
+### 4.5 JUnit in IntelliJ
+
+To run JUnit in Intellij you can follow this [link](https://www.jetbrains.com/help/idea/tdd-with-intellij-idea.html)
 
 ## 5 Additonal information
 
