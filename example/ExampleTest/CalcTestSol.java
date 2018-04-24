@@ -43,7 +43,7 @@ public class CalcTestSol {
 		assertEquals(mul, 4);
 	}
 
-	@Test // (expected=CalcException.class)
+	@Test
 	public void divisionTest() throws CalcException {
 		int div = cal.div();
 		assertEquals(div, 1);
